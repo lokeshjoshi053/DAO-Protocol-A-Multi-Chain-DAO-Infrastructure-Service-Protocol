@@ -63,10 +63,10 @@ DAO, which provides infrastructure services for various DAO organizations, provi
 2.Some difficulties in the current DAO industry
 We found that although DAO represents the future and will develop into the basic organizational unit of human civilization in the future, and will reshape the pattern of human civilization, the entire DAO industry is still in the initial stage of development, and there are still a lot of problems and difficulties. We have now summarized some of the common difficulties in the DAO industry, mainly as follows:
 
-3.The solution of RainbowDAO Protocol
+3.The solution of DAO Protocol
 Our Rainbowcity Foundation team has been conducting in-depth research on the DAO field. We hope to innovate on the basis of existing products in the industry and develop DAO tool products that truly meet the needs of the DAO market. After exploration and research, we decided to launch the RainbowDAO Protocol, and really set out to solve the pain points in the DAO industry.
 
-In the RainbowDAO Protocol, we innovatively put forward the concept of DCV. The development of all DAO tools revolves around DCV. DCV, namely DAO Controlled Value. That is, the value is not controlled by a single individual or centralized entity, but by DAOs at different levels. Through the DAO governance contract, the DAO can control each core parameter and decision switch in the protocol, and ultimately the holder of the governance token will decide the development direction of the entire DAO through voting.
+In the DAO Protocol, we innovatively put forward the concept of DCV. The development of all DAO tools revolves around DCV. DCV, namely DAO Controlled Value. That is, the value is not controlled by a single individual or centralized entity, but by DAOs at different levels. Through the DAO governance contract, the DAO can control each core parameter and decision switch in the protocol, and ultimately the holder of the governance token will decide the development direction of the entire DAO through voting.
 
 All DAO rules are open and transparent, and all decisions are open to the community. Fully transparent DAO governance is the most fundamental guarantee for increasing community consensus. Only when everything is transparent and open will it be fairer, better to gain the trust of the community, and to gather consensus among more communities.
 
@@ -82,38 +82,38 @@ The Rainbowcore module is divided into four parts, RoleManage, AuthorityManage, 
 ⑶DCV controller function：
 Each DCV is an independent treasury system. With DCV as the core, we have innovatively developed the DCV controller function. Each controller is composed of a series of smart contracts. Through the DCV controller function, each DAO can flexibly control the assets in the DCV. In this way, the management of DAO has unlimited scalability.
 
-5.Eight features of RainbowDAO Protocol
+5.Eight features of DAO Protocol
 The three innovative functions of the RainbowDAO Protocol can be used independently or combined together. This makes the RainbowDAO Protocol unlimited scalability and upgradeability, and also allows the DAO organization created through the RainbowDAO Protocol to have unlimited Of diversification. It is with these three innovations that our RainbowDAO Protocol has the following eight features:
 
 ⑴ Modularity：
-Each function of RainbowDAO Protocol can exist as an independent module, which can easily trigger upgrading and evolution of the protocol.
+Each function of DAO Protocol can exist as an independent module, which can easily trigger upgrading and evolution of the protocol.
 
 ⑵ Plug-in：
-Each module of the RainbowDAO Protocol is very flexible like a plug-in.
+Each module of the DAO Protocol is very flexible like a plug-in.
 
 ⑶Composability：
-Each module of the RainbowDAO Protocol can be combined with each other. Some simple modules can work together to form a powerful module.
+Each module of the DAO Protocol can be combined with each other. Some simple modules can work together to form a powerful module.
 
 ⑷Scalability：
-Based on the modular combination, the RainbowDAO Protocol has very strong scalability and new functions can be added through the addition of modules.
+Based on the modular combination, the DAO Protocol has very strong scalability and new functions can be added through the addition of modules.
 
 ⑸Detachability：
-The modules of the RainbowDAO Protocol can be disassembled to achieve the simplification of DAO functional modules and adapt to actual needs.
+The modules of the DAO Protocol can be disassembled to achieve the simplification of DAO functional modules and adapt to actual needs.
 
 ⑹Interoperability：
-Each module of the Rainbow DAO protocol is can interact with each other.
+Each module of the DAO protocol is can interact with each other.
 
 ⑺Flexibility：
-The RainbowDAO Protocol can be combined, extended, and disassembled. This gives the RainbowDAO Protocol strong flexibility. The protocol can be adjusted according to the actual situation of each DAO.
+The DAO Protocol can be combined, extended, and disassembled. This gives the RainbowDAO Protocol strong flexibility. The protocol can be adjusted according to the actual situation of each DAO.
 
 ⑻Growth：
 Based on the first 7 features, the RainbowDAO Protocol will evolve into a living system that can upgrade infinitely with a decentralized idea.
 
-6.Eight concepts of RainbowDAO Protocol
+6.Eight concepts of DAO Protocol
 With the idea of decentralization as the core, the RainbowDAO Protocol has always adhered to eight concepts to guide us in the exploration and implementation of the DAO field:
 
 ⑴Decentralization：
-It is the soul of the RainbowDAO Protocol. The protocol itself and DAOs of all levels are decentralized.
+It is the soul of the DAO Protocol. The protocol itself and DAOs of all levels are decentralized.
 
 ⑵Trust-free：
 RainbowDAO Protocol adheres to the idea of "code is law". All rules are constructed by code with no need for intermediary.
@@ -122,21 +122,21 @@ RainbowDAO Protocol adheres to the idea of "code is law". All rules are construc
 All rules of the RainbowDAO Protocol are set by code to achieve complete on-chain governance, and the value of all assets is controlled by the chain.
 
 ⑷Transparency：
-The RainbowDAO Protocol realizes complete on-chain governance. All data is clearly displayed on the chain.All data is transparent.
+The DAO Protocol realizes complete on-chain governance. All data is clearly displayed on the chain.All data is transparent.
 
 ⑸No need for permission：
-The RainbowDAO Protocol is composed of countless rules that have been set up in advance. They are constructed by smart contracts on the chain. Anyone can use the RainbowDAO Protocol to build a DAO without permission.
+The DAO Protocol is composed of countless rules that have been set up in advance. They are constructed by smart contracts on the chain. Anyone can use the DAO Protocol to build a DAO without permission.
 
 ⑹Openness：
-RainbowDAO Protocol is a set of open protocols and these protocols can interact with internal modules and external protocols.
+DAO Protocol is a set of open protocols and these protocols can interact with internal modules and external protocols.
 
 ⑺Popularity：
-RainbowDAO Protocol can be applied to various types of DAOs, large or small in size.
+DAO Protocol can be applied to various types of DAOs, large or small in size.
 
 ⑻Inclusiveness：
 The RainbowDAO Protocol can be employed by different types of people. We always hope to build the RainbowDAO Protocol into a viable, growing, and warm protocol.
 
-7.Product function display of RainbowDAO Protocol:
+7.Product function display of DAO Protocol:
 Anyone can establish an independent DAO organization through the RainbowDAO Protocol. Through this independent DAO, we can carry out three-part extension, and finally make this DAO infinitely upgradeable and expandable, allowing it to accommodate tens of thousands or even hundreds of thousands of user groups.
 
 
