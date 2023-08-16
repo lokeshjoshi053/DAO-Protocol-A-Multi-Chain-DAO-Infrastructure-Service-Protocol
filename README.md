@@ -1,173 +1,93 @@
-# DAO-Protocol-A-Multi-Chain-DAO-Infrastructure-Service-Protocol
-Solution:
-DAO Protocol is developed under the authorization of the lOKESH JOSHI Foundation, focusing on the creation of web3 basic component.DAO Protocol belongs to a multi-chain infrastructure service protocol.
+## 1. Project name
 
-Anyone can create and manage their own DAO organization through DAO Protocol, including independent DAO,alliance DAO, parent DAO and child DAO. Any DAO can also create a management department within the DAO to achieve multi-level management of the organization.
+DAO NFT Bank System
 
-At the same time, the DAO protocol is a set of multi-chain protocols that can be deployed on multiple different blockchains. It is convenient for DAO organizations on different chains to deploy their own DAO organizations through the DAO protocol. At the same time, we will build a cross-chain protocol bridge in the future. Link DAO organizations on different chains through the Rainbow Bridge protocol to truly realize the cross-chain management of DAO organizations.
+## 2. Elevator pitch
 
-There are two versions of DAO Protocol, Solidity version on EVM and Ink! version on WASM.
+DAO NFT Bank System can deposit ERC20 tokens into banks for lock-up, and can obtain NFT rewards with ERC721 attributes. In this way, the circulation of ERC20 tokens can be controlled and the currency price can be increased.
 
-The Solidity version is mainly deployed on Ethereum, BSC, Poygon, Avalanche, Fantom, and various L2 networks; the Ink! version is mainly deployed on the parallel chains on the Polkadot and Kusama relay chains, as well as other blockchains developed with the substrate framework.
+## 6. Testnet Deployment Information
 
-In the future, we will participate in the parachain auctions of the Polkadot network and the Kusama network to create a parachain with DAO infrastructure service as the core.
+#### 1.BNB Test
 
-⑴ Single product function
+Network Name: BNB Test Network
+RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545/
 
-At present, many DAO tool products generally have the characteristics of single function, and they are far from being able to achieve some complex collaborative work. We hope to achieve some relatively complex collaborative work through the establishment of a series of DAO tools.
+Contract deployment address
 
-⑵. Low expansibility
+ERC20FACTORY :
+0xb60AB0c2BE9f4Afb895DF1d3E59F1755B37e2F04
 
-At present, many DAO tool products generally have the characteristics of low expansibility, and cannot achieve function iteration and upgrade, which directly restricts the development of DAO organizations.
+RBBANKORCHESTRATOR :
+0x02Eb73C3B1F1F40c268BDf8E1091E8F003c91d71
 
-⑶.Low compatibility
+LOANMARKETORCHESTRATOR :
+0x035f017f53d03F6a1208074821e2efaB1500E136
 
-At present, many DAO tool products generally have the characteristics of low compatibility. There is no unified api interface or unified development document between each other, which can not be effectively compatible, and even more can not realize the role of collaborative governance.
+RBTDEPOSITORCHESTRATOR :
+0x775b2ebf696D08ae43D3b49897b05353D499081A
 
-⑷.Low diversity
+TOKENEXCHANGEMARKETORCHESTRATOR :
+0xF3f73182F79f72103da2B583cFE01fCC43af728f
 
-At present, many DAO tool products generally have the characteristics of low diversity. Most products can only meet some general functions, and cannot meet the diversified and differentiated needs of the DAO organization.
+RBTDEPOSIT721 :
+0xC88678320737dBdFEe7Cf90e20040D41b9F3baD1
 
-⑸.Low operability
+#### 2.Rinkeby Test
 
-At present, many DAO tool products generally have the characteristics of low operability. Especially for some novice users, the user experience is generally poor, and it is even more difficult to use these DAO tools.
+Network Name: Rinkeby Test Network
+RPC URL: https://rinkeby.infura.io/v3/
 
+Contract deployment address
 
-1.Eight types of DAO industry:
-DAO is more than a set of smart contracts. In essence, it is a social organization, a physical network composed of individuals with a common purpose. The code of the same smart contract, used by different groups, may demonstrate huge differences. That sparks differences among DAOs. We did some research and collected the information about DAO in the encrypted world and initially divide DAO into eight major types:
+ERC20FACTORY :
+0xa62ae03841367FeB86b35EF1b432ac8D30DF4CF9
 
-⑴Protocol DAO
-The DAO organization established by various DeFi protocols, the holders of governance tokens make decisions through voting and are responsible for the decentralized upgrade of the protocol.
+RBBANKORCHESTRATOR :
+0x6918e0a22A49725E2f8a837897964d477d6f3f74
 
-⑵Investment DAO
-The DAO organization established by various crypto investors, realizes the investment decision-making and benefit distribution of crypto projects through investment DAOs, making investment behaviors more transparent, fair and equal.
+LOANMARKETORCHESTRATOR :
+0x43590456bd89D0E4E47adC14FF8007B44EB6128B
 
-⑶Media DAO
-The DAO organization established by various media practitioners, reconstructs the distribution method of media benefits, and allows information creators and consumers to share the value created by media.
+RBTDEPOSITORCHESTRATOR :
+0xb59Ab779655E80ED12e1c7B518018CeF0C7560D7
 
-⑷Developer DAO
-The DAO organization established by blockchain developers, is committed to the development of various open source protocols and donates to developers to prosper the entire crypto world.
+TOKENEXCHANGEMARKETORCHESTRATOR :
+0xDa9FAa85952327004b0762Aa69505A5b2eE0f9e4
 
-⑸NFT DAO
-DAO organization established by NFT holders. Linking specific artists, NFT platforms, NFT works and NFT consumers, etc., to create longer-term value for NFT works.
+RBTDEPOSIT721 :
+0x6C7Cc7973cf1A3D609aae6F98C6083bB0BBA3f88
 
-⑹Company DAO
-The DAO organization established by various companies, through the DAO to govern the main body of the company, and gradually improve the transparency of corporate governance.
+#  Project Story
 
-⑺Government DAO
-DAO organizations established by various government organizations, including various international organizations, non-profit organizations,, charitable organizations, etc., make governance more transparent, clean, and accept citizen supervision.
+## 1. Inspiration
 
-⑻Tool DAO
-DAO, which provides infrastructure services for various DAO organizations, provides DAO operating system and various web3 tool plug-ins, improves the governance level and governance efficiency of various DAO organizations, and makes governance more diversified.
+In all types of DAO organizations, the hedging management of governance Token is a vitally important job. How to guide the community members to hedge Tokens is a critical module in terms of the liquidity of the governance Token management. As many governance Tokens lack a hedging system, when the flow of Token becomes greater and greater, the actual value of Token will continue to decrease to lead to the final failure of the whole project. With this inspiration and to tackle the problem, we designed and developed a DAO NFT Bank System that can guide the community members to hedge Tokens. This is the first application scenario of the system.
 
-2.Some difficulties in the current DAO industry
-We found that although DAO represents the future and will develop into the basic organizational unit of human civilization in the future, and will reshape the pattern of human civilization, the entire DAO industry is still in the initial stage of development, and there are still a lot of problems and difficulties. We have now summarized some of the common difficulties in the DAO industry, mainly as follows:
+DAO NFT Bank System has another application scenario that enables hedging when a new project initializes and the initial coins are distributed to all VC and seed users. In this way, we cam make it happen that the respective ERC20 Tokens can be deposited into our NFT Bank system with a relative hedging date and an NFT certificate. These NFT certificates are considered the initial investing proof. This can completely solve the pivotal hedging issue the initial investors have, which is also the second important application scenario of this Bank system.
 
-3.The solution of DAO Protocol
-Our Rainbowcity Foundation team has been conducting in-depth research on the DAO field. We hope to innovate on the basis of existing products in the industry and develop DAO tool products that truly meet the needs of the DAO market. After exploration and research, we decided to launch the RainbowDAO Protocol, and really set out to solve the pain points in the DAO industry.
+## 2. What it does
 
-In the DAO Protocol, we innovatively put forward the concept of DCV. The development of all DAO tools revolves around DCV. DCV, namely DAO Controlled Value. That is, the value is not controlled by a single individual or centralized entity, but by DAOs at different levels. Through the DAO governance contract, the DAO can control each core parameter and decision switch in the protocol, and ultimately the holder of the governance token will decide the development direction of the entire DAO through voting.
+DAO NFT Bank System is one of the DAO infrastructure products, providing the governance Token hedging banks and NFT motivation system for all of the DAO organizations. This system is designed to lock position of governance Token. NFTs can be rewarded based on the position locking timing and amount. Simply it means that one can deposit ERC20 governance tokens into the hedging bank to get the NFT certificate in the form of ERC721, which is categorized into financial NFT. The rewarded NFT certificates are the equivalent of ERC20 Token deposit receipts. In the future, the NFT deposit receipt holders can withdraw the relative ERC20 governance Tokens by the time of validity.
 
-All DAO rules are open and transparent, and all decisions are open to the community. Fully transparent DAO governance is the most fundamental guarantee for increasing community consensus. Only when everything is transparent and open will it be fairer, better to gain the trust of the community, and to gather consensus among more communities.
+Meanwhile, in order to guarantee the liquidity of the deposited ERC20 governance Tokens, we developed an NFT mortgage and loan market and an NFT transfer market for NFT deposit receipts. The NFT mortgage and loan market can get loans from the market by pledging the NFT deposit receipts. The NFT certificates can be cashed in the NFT transfer market by transferring the ownership.
 
-4.The three major innovations of the RainbowDAO Protocol
-In order to better meet the needs of the DAO industry, through the RainbowDAO Protocol, we have achieved three major innovations, which enable the DAO infrastructure to be upgraded and expanded infinitely, and truly meet the diversified needs of the DAO organization.
+## 3. How we built it
 
-⑴ Govern DAO function：
-Governance DAO is mainly reflected in two levels. First, the entire RainbowDAO Protocol is controlled by a governance DAO, and this governance DAO is controlled by the governance token RBD. The second point is that each independent DAO created through the protocol will generate a governance DAO, and the governance DAO is responsible for the modification of the independent DAO system parameters.
+⑴  Create an ERC Token using the ERC20 factory and set basic information such as Token name, circulation, logo, decimals etc.
 
-⑵Rainbow core function：
-The Rainbowcore module is divided into four parts, RoleManage, AuthorityManage, RouteManage and CoreManage. The combination of these four functions makes the RainbowDAO Protocol a whole that can be flexibly matched with different roles and different permissions. In this way, unlimited expansion and upgrade of the protocol can be realized.
+⑵  Create a DAO NFT bank with bank's name, mortgaged governance Token address, time set-up of the mortgage and NFT's title.
 
-⑶DCV controller function：
-Each DCV is an independent treasury system. With DCV as the core, we have innovatively developed the DCV controller function. Each controller is composed of a series of smart contracts. Through the DCV controller function, each DAO can flexibly control the assets in the DCV. In this way, the management of DAO has unlimited scalability.
+⑶   NFT badge contains information as follows: NFT serial No., NFT initial creator, NFT current holder, NFT lock-position time, NFT whole governance badge name, NFT whole governance badge quantity, lock-position end time, lock-position remaining days, withdrawal button.
 
-5.Eight features of DAO Protocol
-The three innovative functions of the RainbowDAO Protocol can be used independently or combined together. This makes the RainbowDAO Protocol unlimited scalability and upgradeability, and also allows the DAO organization created through the RainbowDAO Protocol to have unlimited Of diversification. It is with these three innovations that our RainbowDAO Protocol has the following eight features:
+⑷   Pledge governance Tokens and create an NFT badge: choose deposit amount, choose deposit duration, complete NFT badge.
 
-⑴ Modularity：
-Each function of DAO Protocol can exist as an independent module, which can easily trigger upgrading and evolution of the protocol.
+⑸  To get the liquidity during the mortgage period, we can pledge the NFT badges in the mortgage and loan market to get borrow certain amount of money.
 
-⑵ Plug-in：
-Each module of the DAO Protocol is very flexible like a plug-in.
+⑹   Loaning orders contain information as follows: loan Token, loan amount, loan period, loan start time, estimated payment date, remaining days, loan rates, loan actual interests and payback.
 
-⑶Composability：
-Each module of the DAO Protocol can be combined with each other. Some simple modules can work together to form a powerful module.
+⑺   To get the liquidity during mortgage, one can sell their NFT badges in the transfer market.
 
-⑷Scalability：
-Based on the modular combination, the DAO Protocol has very strong scalability and new functions can be added through the addition of modules.
+⑻   The transfer market orders contain information as below: order serial No., NFT serial No., NFT initial creator, NFT current holder, NFT set time, NFT expiry date, unlock remaining time, NFT transfer price, whole Token amount and transfer fees.
 
-⑸Detachability：
-The modules of the DAO Protocol can be disassembled to achieve the simplification of DAO functional modules and adapt to actual needs.
-
-⑹Interoperability：
-Each module of the DAO protocol is can interact with each other.
-
-⑺Flexibility：
-The DAO Protocol can be combined, extended, and disassembled. This gives the RainbowDAO Protocol strong flexibility. The protocol can be adjusted according to the actual situation of each DAO.
-
-⑻Growth：
-Based on the first 7 features, the RainbowDAO Protocol will evolve into a living system that can upgrade infinitely with a decentralized idea.
-
-6.Eight concepts of DAO Protocol
-With the idea of decentralization as the core, the RainbowDAO Protocol has always adhered to eight concepts to guide us in the exploration and implementation of the DAO field:
-
-⑴Decentralization：
-It is the soul of the DAO Protocol. The protocol itself and DAOs of all levels are decentralized.
-
-⑵Trust-free：
-RainbowDAO Protocol adheres to the idea of "code is law". All rules are constructed by code with no need for intermediary.
-
-⑶Censorship-Resistant：
-All rules of the RainbowDAO Protocol are set by code to achieve complete on-chain governance, and the value of all assets is controlled by the chain.
-
-⑷Transparency：
-The DAO Protocol realizes complete on-chain governance. All data is clearly displayed on the chain.All data is transparent.
-
-⑸No need for permission：
-The DAO Protocol is composed of countless rules that have been set up in advance. They are constructed by smart contracts on the chain. Anyone can use the DAO Protocol to build a DAO without permission.
-
-⑹Openness：
-DAO Protocol is a set of open protocols and these protocols can interact with internal modules and external protocols.
-
-⑺Popularity：
-DAO Protocol can be applied to various types of DAOs, large or small in size.
-
-⑻Inclusiveness：
-The RainbowDAO Protocol can be employed by different types of people. We always hope to build the RainbowDAO Protocol into a viable, growing, and warm protocol.
-
-7.Product function display of DAO Protocol:
-Anyone can establish an independent DAO organization through the RainbowDAO Protocol. Through this independent DAO, we can carry out three-part extension, and finally make this DAO infinitely upgradeable and expandable, allowing it to accommodate tens of thousands or even hundreds of thousands of user groups.
-
-
-⑴Scale up: Alliance DAO
-An independent DAO can join a Alliance DAO, such as investment Alliance DAO, media Alliance DAO, social Alliance DAO, and so on.
-
-⑵Scale Out: Parent DAO and Child DAO
-Each independent DAO can create child DAOs belonging to this independent DAO. This is equivalent to the relationship between the parent company and the subsidiary. The parent DAO can perform cross-level management on the child DAO, but the child DAO cannot cross-level management.
-
-⑶Scale In: DAO department management
-Each independent DAO can also establish a department belonging to this independent DAO. In this way, each independent DAO can establish its own clear organizational structure, and the department is managed by the multi-signature management committee. Only with clear division of labor and clear responsibilities can it be possible to improve efficiency and execution.
-
-8.Design Mechanism of RainbowDao Protocol
-The RainbowDAO Protocol allows unlimited expansion and unlimited upgrades of DAO. This part is the architecture design of the RainbowDAO Protocol, so that everyone can clearly know the design mechanism of the protocol.
-
-⑴Tier 1 Architecture: RBD Governance Dao
-The first layer of the RainbowDAO Protocol consists of RBD governance DAO. RBD belongs to the governance token of the RainbowDAO Protocol. The holders of RBD constitute the DAO and are responsible for the governance and management of the entire RainbowDAO Protocol.
-
-⑵Tier 2 Architecture: Basic Protocol Layer
-The second layer of the RainbowDAO Protocol is the basic part of the protocol, which mainly contains six parts: rainbow core contract, membership management contract, revenue management contract, web3 tool contract, DCV controller contract, and the DAO factory contract.
-
-⑶Tier 3 Architecture:DAO Factory
-The third layer belongs to the DAO factory contract, which is mainly used for the batch creation and management of DAO. The DAO factory contract can be divided into three parts, namely DAO type contract, DAO initialization contract, and DAO management contract.
-
-
-
-⑹.Poor innovation
-
-At present, many DAO tool products generally have the characteristics of poor innovation. Most of them are learning from each other, the functional models are similar, and they have not essentially solved some of the pain points that are common in the DAO industry.
-
-Target audience:
-The target audience of the Rainbow DAO Protocol is mainly various types of DAO organizations. Meet their needs for DAO organization and management. Realize the multi-level management of DAO through DAO factory.
-
-This product is suitable for all types of DAO organizations, whether it is a large DAO organization or a small DAO organization. Everyone can apply it to the actual DAO management. Its function is very practical for DAO organization.
+⑼   Anyone can buy the available NFTs through the transfer market and gain tokens included in this NFT. As soon as the hedging date expires, one can get withdraw the token from the bank with the NFT lock-position badge.
